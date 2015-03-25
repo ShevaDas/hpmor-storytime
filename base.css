@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Delius";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Delius-Regular"), url("http://fonts.gstatic.com/s/delius/v6/bDpuiE0ncvY05_AsiZIWR-vvDin1pK8aKteLpeZ5c0A.woff2") format("woff2"), url("http://fonts.gstatic.com/s/delius/v6/brLBPBAUw-PpA7n74Uo__uvvDin1pK8aKteLpeZ5c0A.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Habibi";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Habibi"), local("Habibi-Regular"), url("http://fonts.gstatic.com/s/habibi/v5/bSFvAawuMN0NgplL1g71_-vvDin1pK8aKteLpeZ5c0A.woff2") format("woff2"), url("http://fonts.gstatic.com/s/habibi/v5/_qW8K8NLtlS30VjiJCqOwevvDin1pK8aKteLpeZ5c0A.woff") format("woff");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 2em;
+	font-family: "Habibi", Georgia; 
+}
+
+#chapter-title {
+	text-align: center;
+	padding: 20px;
+	margin: 0px auto;
+	font-family: "Delius", Georgia;
+	font-size: 2.4em;
+	background-image: url("http://hpmor.com/fleur.png");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	background-size: auto auto;
+}
+
+h1#logo {
+	background: url("http://hpmor.com/hpmor_logo.png") no-repeat scroll center bottom transparent;
+	text-indent: -9000px;
+	height: 300px;
+	margin: 0px auto 10px;
+	padding: 0px;
+}
+
+.top {
+	/** background: url('http://hpmor.com/bg_lines.png') repeat scroll 0% 0% #FFF; **/
+}
+
+.storytime {
+	max-width: 42em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	line-height: 140%;
+	margin: 1em 0px;
+}
+
+.bottom { 
+   position: absolute; 
+   bottom: 0;
+ /**  width: 1000px;
+   margin-left: auto;
+   margin-right: auto; **/
+   padding: 10px;
+}
+
+.info {
+   font-size: smaller;
+   text-align: center;
+}
+
+.info a {
+   text-decoration: none;
+   color: rgba(204, 204, 204, 1);
+}
+
+.info a:hover {
+   text-decoration: underline;
+}
+
+.littler {
+   font-size: smaller;
+}
+
+
+

@@ -1,0 +1,32 @@
+$def with (chapter_name, starting_item, other_items, alive_or_dead, aesop)
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IT'S HPMOR STORYTIME!</title>
+		<link rel="stylesheet" type="text/css" href="../base.css" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+                <meta name="author" content="Sheva Goldberg" />
+	</head>
+	<body>
+		<div class="top">
+			<div id="chapter-title">Chapter 114: $chapter_name<br></br></div>
+			<div class="storytime">
+        			$if other_items:
+			    		<div class="row"><p>Using $starting_item$other_items, Harry $alive_or_dead.</p></div>
+        			$else:
+          				<div class="row"><p>Using $starting_item, Harry $alive_or_dead.</p></div>
+				$if aesop:
+					<div class="row"><p>$aesop</p></div>
+				<div><span class="info"><a href="http://hpmor.madbats.net/">Reload for another...</a></span></div>
+			</div>
+		</div>
+
+		<div class="bottom">
+			<span class="info"><a href="mailto:b@shevagoldberg.com">Questions?</a> <a href="mailto:sheva@eatabagofdicks.org"> Complaints?</a></span>
+		</div>
+	</body>
+</html>
+	
+
